@@ -21,6 +21,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #778492;
 }
 
+.djangositeimg{
+  max-width: 40rem;
+}
+
+.cprojectimg {
+  max-width: 40rem;
+}
+
+.phoeniximg{
+  max-width: 40rem;
+
+}
 a {
   color: #3AAA64;
   -webkit-transition: all 0.4s ease-in-out;
