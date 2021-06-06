@@ -21,18 +21,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #778492;
 }
 
-.djangositeimg{
-  max-width: 40rem;
-}
-
-.cprojectimg {
-  max-width: 40rem;
-}
-
-.phoeniximg{
-  max-width: 40rem;
-
-}
 a {
   color: #3AAA64;
   -webkit-transition: all 0.4s ease-in-out;
@@ -141,7 +129,8 @@ a.dotted-link:hover {
 
 .header .profile-image {
   margin-right: 30px;
-  height:300px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .header .profile-content .name {
@@ -659,6 +648,8 @@ a.dotted-link:hover {
   .header .profile-image {
     float: none !important;
     margin: 0 auto;
+    max-width: 100%; 
+    max-height: 100%;
   }
   .header .profile-content {
     float: none !important;
